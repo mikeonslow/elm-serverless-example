@@ -1,0 +1,6 @@
+[Settings]
+ID = "b3cd6414-c535-40d2-890e-3e53cd97fd91"
+
+[build]
+  functions = "./functions"
+  publish = "dist"
