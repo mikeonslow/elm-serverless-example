@@ -8,7 +8,7 @@
     "deploy": "npm run lambda:build && webpack --mode production",
     "watch": "webpack --mode production --watch",
     "elm": "elm",
-    "lambda:build": "netlify-lambda build ./src/lambda"
+    "lambda:build": "npx netlify-lambda build ./src/lambda"
   },
   "repository": {
     "type": "git",
