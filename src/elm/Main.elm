@@ -15,7 +15,7 @@ type alias Model =
 
 view : Model -> Html Msg
 view model =
-    text "Hello, World!!!!!"
+    text "Hello, World!!!"
 
 
 type Msg
