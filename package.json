@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm run lambda:build && webpack --mode production",
+    "deploy": "webpack --mode production",
     "watch": "webpack --mode production --watch",
     "elm": "elm",
     "lambda:build": "npx netlify-lambda build ./src/lambda"
